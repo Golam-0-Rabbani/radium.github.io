@@ -355,10 +355,9 @@ background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75
   font-size: 40px;
   color: white;
   cursor: e-resize;
-  
 }
 .socialMedia div a{
-margin: 3.5px 0 0 30%;
+margin: 10px 0 0 30%;
 
 }
   
