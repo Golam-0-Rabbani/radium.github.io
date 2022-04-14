@@ -507,7 +507,8 @@ margin: 3.5px 0 0 30%;
   right: 10px;
   background: rgba(241,241,241,.6);
 }
-.btt h1{
+.btt h1 a{
+  text-decoration: none;
   text-align: center;
   color: black;
   font-size: 22px;
