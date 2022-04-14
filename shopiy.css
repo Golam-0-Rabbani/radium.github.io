@@ -25,7 +25,7 @@
 }
 .div1 .p1{
   text-align: center;
-  padding: 60px 0 0 0;
+  padding: 90px 0 0 0;
   font-size: 30px;
   font-weight: bold;
   color: white;
@@ -40,13 +40,12 @@
 }
 
 .div3{
-  
   width: 120px;
   height: 120px;
   border: 8px solid white;
   background: transparent;
   border-radius: 100%;
-  margin: 70px auto;
+  margin: 110px auto;
   animation: div3 2s;
   animation-iteration-count: infinite;
 }
