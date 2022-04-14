@@ -49,6 +49,7 @@ table tr {
 a{
   color: black;
   text-decoration: none;
+  margin: 15px 0 0 15px;
 }
 .NB{
   margin: 20px;
