@@ -1,0 +1,507 @@
+
+/*loader start*/
+
+.loader{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+}
+.div1{
+  width: 100%;
+  height: 100vh;
+  background: #414e52;
+  border: 0px;
+}
+.div2{
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  height: 10vh;
+  background:linear-gradient(0deg ,rgb(33,55,62),rgb(241,245,246));
+  border-top: 2px solid ;
+  border-left: 2px solid ;
+  border-radius: 100% 100% 0 0;
+}
+.div1 .p1{
+  text-align: center;
+  padding: 60px 0 0 0;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  letter-spacing: 1px;
+}
+.div2 pre{
+  text-align: center;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: black;
+  margin: 10px 0 0 0;
+}
+
+.div3{
+  
+  width: 120px;
+  height: 120px;
+  border: 8px solid white;
+  background: transparent;
+  border-radius: 100%;
+  margin: 70px auto;
+  animation: div3 3s;
+  animation-iteration-count: infinite;
+}
+
+.div3 p{
+  padding: 40px 0 0 12px;
+  font-size: 19px;
+  font-style: italic;
+  color: rgb(235,234,234);
+  font-weight: bold;
+  display: flex;
+}
+.span1{
+  font-size: 20px;
+  animation: span1 3s;
+  animation-iteration-count: ;
+}
+.span2{
+  font-size: 20px;
+  animation: span2 4s;
+  animation-iteration-count: ;
+}
+
+.span3{
+  font-size: 20px;
+  animation: span3 5s;
+  animation-iteration-count: ;
+}
+
+
+
+@keyframes div3{
+25%{
+  border-top: 8px solid red;
+}
+50%{
+  border-top: 8px solid red;
+  border-right: 8px solid yellow;
+}
+75%{
+  border-top: 8px solid red;
+  border-right: 8px solid yellow;
+  border-bottom: 8px solid green;
+}
+100%{
+  border-top: 8px solid red;
+  border-right: 8px solid yellow;
+  border-bottom: 8px solid green;
+  border-left: 8px solid blue;
+}
+}
+
+@keyframes span1{
+  from{
+    color: transparent;
+  }
+  to{
+    color: white;
+  }
+}
+@keyframes span2{
+  from{
+    color: transparent;
+  }
+  to{
+    color: white;
+  }
+}
+@keyframes span3{
+  from{
+    color: transparent;
+  }
+  to{
+    color: white;
+  }
+}
+
+
+/*loader end*/
+
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body,html{
+	overflow-x: hidden;
+}
+html{
+	transition: all 0.3s;
+}
+.darkHTML{
+  background: #282828;
+  transition: all 0.3s;
+}
+
+
+	
+#head{
+	width: 100%;
+	height: 48px;
+	background:rgb(87,87,87);
+	position: fixed;
+	z-index: 10;
+}
+.name{
+	position: fixed;
+	top: 10px;
+	right: 15px;
+	z-index: 15;
+	font-size: 25px;
+	font-weight: bold;
+	color: white; 
+	text-decoration: none;
+}
+
+
+/*Toggle Menu Sticks Start*/
+
+#toggleMenu{
+	position: fixed;
+	top: 10px;
+	left: 10px;
+	z-index: 15;
+	width: 38px;
+	height: 38px;
+ border: 0px;
+	border-radius: 100%;
+}
+
+.stick{
+	background: white;
+	height: 4px;
+	width: 33px;
+	margin-top: 4px;
+}
+.top{
+	transition: all 0.5s;
+}
+.center{
+ transition: all 0.5s;	
+}
+.bottom{
+	transition: all 0.5s;
+}
+.aftertop{
+	transform: rotate(-45deg);
+	transition: all 0.5s;
+	margin-top: 10px;
+}
+.aftercenter{
+	opacity: 0%;
+	transition: all 0s;
+}
+.afterbottom{
+  transform: rotate(45deg);
+	transition: all 0.5s;
+	position: fixed;
+	top:17px;
+}
+/*Toggle Menu Sticks End*/
+
+
+
+.holder{
+	width: 230px;
+	height: 100%;
+	background:rgba(41,138,157,.9);
+	position: fixed;
+	top: 45px;
+  left: 0px;
+	transform: translateX(-230px);
+	transition: all 0.3s;
+	z-index: 5;
+}
+.holderAfterHover1{
+	height: 100%;
+	transition: all 0.3s;
+ border-radius: 0;
+}
+.afterholder{
+	transform: translateX(0);
+	transition: all 0.3s;
+	position: fixed;
+	top: 45px;
+}
+.holder ul li{
+	margin-left: 40px;
+	list-style: none;
+	margin-top: 40px;
+}
+.holder ul li a{
+	text-decoration: none;
+	color: white;
+	border-bottom: 1.5px solid rgba(255,255,255,0.5);
+	font-size: 17px;
+	margin-bottom: 4px;
+	transition: border 0.5s;
+	cursor: e-resize;
+}
+.holder ul li a:hover{
+	border-bottom: : 1.5px solid rgba(255,255,255,1);
+	transition: all;
+	border-radius: 8px;
+	font-size: 18px;
+}
+
+
+.mbl{
+	display: none;
+	margin-left: 30px;
+}
+.afterhover{
+	display: grid;
+}
+
+
+/*Darkmode Start*/
+
+.darkmode{
+	font-size: 17px;
+	color: white;
+	display: flex;
+}
+.darkenable{
+	width: 45px;
+	height: 21px;
+	background: rgb(108,108,108);
+	border: 1px solid white;
+	border-radius: 11px;
+	margin-left: 5px;
+	transition: all 0.5s;
+   margin-top: -2px;
+}
+.beforeenable{
+	width: 19px;
+	height: 19px;
+	background: rgba(255,255,255,1);
+	border: 1px solid rgba(255,255,255,1);
+	border-radius: 10px;
+	transition: all 0.5s;
+}
+.afterenable{
+	width: 19px;
+	height: 19px;
+	background: white;
+	border: 1px solid white;	
+	border-radius: 10px;
+	margin-left: 24px;
+	transition: all 0.5s;
+}
+.enable{
+	background: rgb(0,53,191);
+	transition: background 0.5s;
+	border: 1px solid white;
+	transition: all 0.5s;
+}
+
+
+
+/*Darkmode End*/
+
+
+
+/*socialMedia icons start*/
+.socialMedia{
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-grow: 1;
+}
+.socialMedia div{
+  width: 100%;
+}
+#fb{
+  background: #0068ff;
+}
+.fb{
+  font-size: 40px;
+  color: white;
+  cursor: e-resize;
+}
+#insta{
+background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+}
+.insta{
+  font-size: 40px;
+  color: white;
+  
+}
+#wa{
+  background:  rgb(37,172,4)
+}
+.wa{
+  font-size: 40px;
+  color: white;
+  cursor: e-resize;
+}
+#twi{
+  background: #1DA1F2;
+}
+.twi{
+  font-size: 40px;
+  color: white;
+  cursor: e-resize;
+  
+}
+.socialMedia div a{
+margin: 3.5px 0 0 30%;
+
+}
+  
+  /*socialMedia icons end*/
+  
+  
+.socialMedia div a:hover{
+  font-size: 41px;
+  margin: 3.5px 0 0 30%;
+}
+
+.AboutRadium{
+  width: 100%;
+  height: 48vh;
+  margin: 50px 0 0 0px;
+  background: rgba(123,154,197,0.6);
+  border: 2px solid black;
+  border-radius: 20px;
+}
+
+.AboutRadium h5{
+  text-align: center;
+  font-size: 22px;
+  font-weight: bolder;
+  padding: 15px 0 0 0px;
+  font-style: italic;
+  letter-spacing: 5px;
+  color: rgb(255,255,255);
+}
+.AboutRadium div{
+  display: flex;
+}
+
+.AboutRadium .div{
+  width: 20px;
+  height: 220px;
+  background: rgba(43,43,43,.9);
+  margin: 10px 0px 0 20px;
+  animation: AboutRadiumDiv 1.5s;
+  border: 0px solid;
+  border-radius: 100px;
+}
+@keyframes AboutRadiumDiv{
+  from{
+  background: rgb(255,255,255);
+  transform: translateY(100px);
+  }
+  to{
+  background: rgba(43,43,43,.9);
+  transform: translateY(0);
+  }
+}
+.AboutRadiumText{
+  margin: 25px 5px 0 15px;
+  text-align: left;
+  animation: AboutRadiumText 2s;
+  color: rgba(0,0,0,1);
+  font-size: 17px;
+}
+@keyframes AboutRadiumText{
+  from{
+  color: black;
+  transform: translateX(250px);
+  }
+  to{
+    color: black;
+  }
+}
+
+.allTeacher{
+  margin: 5px 0 50px 0;
+  background: rgb(58,124,173,.6);
+  border: 2px solid black;
+  border-radius: 20px;
+  color: black;
+  height: 200vh;
+
+}
+.allTeacherPre{
+  text-align: center; 
+  padding: 15px 0 30px 0;
+  font-size: 20px;
+  font-weight: bolder;
+  font-style: italic;
+  letter-spacing: 5px;
+  color: Black;
+  
+}
+
+.teacher{
+  width: 100%;
+  height: 200px;
+  background: rgb(225,225,225);
+  color: black;
+  border: 2px solid black;
+  border-radius: 5%;
+}
+.teacher:hover{
+  transition: all 0.1s;
+  background:rgba(145,180,180,1); 
+}
+.teacher:hover img{
+  display: block;
+  width: 150px;
+  height: 150px;
+  transition: all 0.2s;
+  margin-top:-75px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.didarSir{
+  margin: 70px 0 0 0;
+}
+.Sir{
+  margin: 80px 0 0 0;
+}
+.teacher img{
+  width: 140px;
+  height: 140px;
+  border: 2px solid black;
+  border-radius: 50%;
+  display: block;
+  margin-top: -70px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.teacher pre{
+  margin: 18px 0 0 0px;
+  text-align: center;
+  font-size: 14px;
+}
+
+@media screen and (min-width:480px){
+
+.all1{
+  font-size: 18px;
+}
+
+   .holder{
+    
+   }
+  
+  
+   }
+   
