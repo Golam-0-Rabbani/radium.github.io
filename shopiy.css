@@ -16,7 +16,7 @@
 
 .div1 .p1{
   text-align: center;
-  padding: 90px 0 0 0;
+  padding: 120px 0 0 0;
   font-size: 30px;
   font-weight: bold;
   color: white;
@@ -28,7 +28,7 @@
   border: 8px solid white;
   background: transparent;
   border-radius: 100%;
-  margin: 45% auto 0 auto;
+  margin: 35% auto 0 auto;
   animation: div3 2s;
   animation-iteration-count: infinite;
 }
