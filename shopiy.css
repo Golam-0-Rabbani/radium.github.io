@@ -509,7 +509,7 @@ margin: 3.5px 0 0 30%;
 }
 .btt h1 a{
   text-decoration: none;
-  text-align: center;
+  margin: auto;
   color: black;
   font-size: 25px;
 }
