@@ -497,8 +497,7 @@ margin: 3.5px 0 0 30%;
 
 
 .btt{
-  font-size: 25px;
-  color: black;
+
   width: 30px;
   height: 30px;
   border: 0px; 
@@ -506,8 +505,12 @@ margin: 3.5px 0 0 30%;
   position: fixed;
   bottom: 60px;
   right: 10px;
+  background: rgba(241,241,241,.6);
+}
+.btt h1{
   text-align: center;
-  background: rgba(241,241,241,0.2);
+  color: black;
+  font-size: 25px;
 }
 @media screen and (min-width:480px){
 
