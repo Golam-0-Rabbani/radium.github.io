@@ -47,7 +47,7 @@
   background: transparent;
   border-radius: 100%;
   margin: 70px auto;
-  animation: div3 3s;
+  animation: div3 2s;
   animation-iteration-count: infinite;
 }
 
@@ -397,7 +397,7 @@ margin: 3.5px 0 0 30%;
   height: 220px;
   background: rgba(43,43,43,.9);
   margin: 10px 0px 0 20px;
-  animation: AboutRadiumDiv 1.5s;
+  animation: AboutRadiumDiv 4s;
   border: 0px solid;
   border-radius: 100px;
 }
@@ -414,7 +414,7 @@ margin: 3.5px 0 0 30%;
 .AboutRadiumText{
   margin: 25px 5px 0 15px;
   text-align: left;
-  animation: AboutRadiumText 2s;
+  animation: AboutRadiumText 4.5s;
   color: rgba(0,0,0,1);
   font-size: 17px;
 }
