@@ -46,24 +46,8 @@ table tr {
   background: rgb(200,200,200);
   color: rgb(86,86,86);
 }
-
-button{
-  width: 120px;
-  height: 35px;
-  border: 1px solid black;
-  border-radius: 30px;
-  margin: 20px 0 0 10px;
-  background: transparent;
-  font-size: 20px;
+a{
   color: black;
-} 
-button:hover{
-  width: 135px;
-  height: 40px;
-  margin: 20px -10px 0 10px;
-  color: white;
-  transition: .1s;
-  background: rgb(50,193,228);
 }
 .NB{
   margin: 20px;
