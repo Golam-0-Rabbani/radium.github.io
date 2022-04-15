@@ -28,7 +28,7 @@
   border: 8px solid white;
   background: transparent;
   border-radius: 100%;
-  margin: 35% auto 0 auto;
+  margin: auto;
   animation: div3 2s;
   animation-iteration-count: infinite;
 }
