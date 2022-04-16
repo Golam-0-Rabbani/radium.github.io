@@ -1,0 +1,83 @@
+ *{
+   margin: 0;
+   padding: 0;
+ }
+ body{
+   width: 100%;
+   background: rgb(51,103,107);
+ }
+ .Myprofile{
+   margin: 20% 0 0 0;
+  width: 100%;
+  height: 250px;
+  background: rgba(157,219,174,0.5);
+  color: black;
+  border: 2px solid black;
+  border-radius: 5%;
+ }
+ img{
+  width: 140px;
+  height: 140px;
+  border: 2px solid black;
+  border-radius: 50%;
+  display: block;
+  margin-top: -70px;
+  margin-left: auto;
+  margin-right: auto;
+ }
+ p{
+   text-align: center;
+   margin: 15px 0 0 0px;
+   font-family: 'Raleway', sans-serif;
+   font-size: 17px;
+   
+ }
+ 
+/*socialMedia icons start*/
+.socialMedia{
+  position: relative;
+  top:  0;
+  left: 0px;
+  width: 60%;
+  height: 50px;
+  display: flex;
+  flex-grow: 1;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid white;
+  border-radius: 10px;
+  background: rgba(156,177,172,1);
+}
+.socialMedia div{
+  width: 100%;
+}
+
+.fb{
+  font-size: 30px;
+  color: #244de8;
+  cursor: e-resize;
+}
+
+.insta{
+  font-size: 30px;
+  color: white;
+  cursor: e-resize;
+}
+
+.wa{
+  font-size: 30px;
+  color: green;
+  cursor: e-resize;
+}
+
+.yt{
+  font-size: 30px;
+  color: #b61b1b;
+  cursor: e-resize;
+}
+.socialMedia div{
+margin: 10px 0 0 5px;
+
+}
+  
+  /*socialMedia icons end*/
