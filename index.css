@@ -479,7 +479,7 @@ text-align: center;
   height: 50px;
   background: #383838;
 }
-.copyright pre{
+.copyright a{
   text-align: center;
   color: white;
 }
