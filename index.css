@@ -230,7 +230,7 @@ html{
 	font-family: 'Ubuntu', sans-serif;
 	margin:0 0 4px 20px;
 	transition: border 0.5s;
-	cursor: e-resize;
+	cursor: default;
 }
 .holder ul li a:hover{
 	border-bottom: : 1.5px solid rgba(255,255,255,1);
@@ -245,7 +245,7 @@ html{
   position: fixed;
   bottom: 80px;
   left: 60px;
-  cursor: e-resize;
+  cursor: default;
   
 }
 
