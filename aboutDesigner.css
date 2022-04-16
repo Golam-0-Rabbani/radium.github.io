@@ -38,13 +38,13 @@
   position: relative;
   top:  0;
   left: 0px;
-  width: 60%;
+  width: 80vw;
   height: 50px;
   display: flex;
   flex-grow: 1;
   margin-left: auto;
   margin-right: auto;
-  border: 1px solid white;
+  border: 2px solid white;
   border-radius: 10px;
   background: rgba(156,177,172,1);
 }
@@ -54,26 +54,30 @@
 
 .fb{
   font-size: 30px;
-  color: #244de8;
-  cursor: e-resize;
+  color: black;
+  cursor: default;
+  margin-left: 25%;
 }
 
 .insta{
   font-size: 30px;
-  color: white;
-  cursor: e-resize;
+  color: black;
+  cursor: default;
+   margin-left: 12.5%;
 }
 
 .wa{
   font-size: 30px;
-  color: green;
-  cursor: e-resize;
+  color: black;
+  cursor: default;
+   margin-left: 12.5%;
 }
 
 .yt{
   font-size: 30px;
-  color: #b61b1b;
-  cursor: e-resize;
+  color: black;
+  cursor: default;
+   margin-left: 12.5%;
 }
 .socialMedia div{
 margin: 10px 0 0 5px;
