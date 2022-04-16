@@ -369,7 +369,7 @@ html{
   background: rgba(60,159,227,0.3);
   border: 0px solid black;
   color: black;
-  height: 1000px;
+  height: 1300px;
 }
 .allTeacherPre{
 text-align: center;
@@ -385,7 +385,7 @@ text-align: center;
 
 .teacher{
   width: 100%;
-  height: 210px;
+  height: 270px;
   background: rgba(157,219,174,0.5);
   color: black;
   border: 2px solid black;
@@ -406,6 +406,7 @@ text-align: center;
 }
 .didarSir{
   margin: 70px 0 0 0;
+  height: 290px;
 }
 .Sir{
   margin: 80px 0 0 0;
@@ -473,7 +474,50 @@ text-align: center;
   border-radius: 1px;
   margin: 120px 0 0 10px;
 }
+/*socialMedia icons start*/
+.socialMedia{
+  position: relative;
+  top:  0;
+  left: 0px;
+  width: 80vw;
+  height: 50px;
+  display: flex;
+  flex-grow: 1;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid white;
+  border-radius: 10px;
+  background: transparent;
+}
+.socialMedia div{
+  width: 100%;
+}
 
+.fb{
+  font-size: 30px;
+  color: black;
+  cursor:default;
+  margin-left: 50%;
+}
+
+.insta{
+  font-size: 30px;
+  color: black;
+  cursor:default;
+  margin-left: 25%;
+}
+
+.wa{
+  font-size: 30px;
+  color: black;
+  cursor: default;
+}
+
+.socialMedia div{
+margin: 10px 0 0 5px;
+
+}
+  /*socialMedia icons end*/
 
 
 
