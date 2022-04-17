@@ -42,7 +42,7 @@ html{
   border: 8px solid white;
   background: transparent;
   border-radius: 100%;
-  margin:40% auto;
+  margin: 40px;% auto;
   animation: div3 2s;
   animation-iteration-count: infinite;
 }
