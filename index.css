@@ -429,7 +429,7 @@ text-align: center;
   font-size: 14px;
   font-family: 'Raleway', sans-serif;
 }
-.teacher pre:hover{
+.teacher:hover .teacher pre{
   transform: scale(1.1);
 }
 
