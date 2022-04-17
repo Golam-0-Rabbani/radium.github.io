@@ -17,24 +17,10 @@ html{
 
 .loader{
   position: fixed;
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   z-index: 200;
-}
-.div1{
-  width: 100vw;
-  height: 100vh;
   background: #414e52;
-  border: 0px;
-}
-
-.div1 .p1{
-  text-align: center;
-  padding: 120px 0 0 0;
-  font-size: 30px;
-  font-weight: bold;
-  color: white;
-  letter-spacing: 1px;
 }
 .div3{
   width: 140px;
@@ -42,15 +28,10 @@ html{
   border: 8px solid white;
   background: transparent;
   border-radius: 100%;
-  margin: 40px;% auto;
+  margin: 40% auto;
   animation: div3 2s;
   animation-iteration-count: infinite;
 }
-
-
-
-
-
 @keyframes div3{
 25%{
   border-top: 8px solid red;
