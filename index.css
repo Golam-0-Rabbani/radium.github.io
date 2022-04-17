@@ -37,8 +37,8 @@ html{
   letter-spacing: 1px;
 }
 .div3{
-  width: 125px;
-  height: 125px;
+  width: 140px;
+  height: 140px;
   border: 8px solid white;
   background: transparent;
   border-radius: 100%;
@@ -47,30 +47,7 @@ html{
   animation-iteration-count: infinite;
 }
 
-.div3 p{
-  padding: 40px 0 0 10px;
-  font-size: 1.3rem;
-  font-style: italic;
-  color: rgb(235,234,234);
-  font-weight: bold;
-  display: flex;
-}
-.span1{
-  font-size: 1.1rem;
-  animation: span1 3s;
-  animation-iteration-count: ;
-}
-.span2{
-  font-size: 1.1rem;
-  animation: span2 4s;
-  animation-iteration-count: ;
-}
 
-.span3{
-  font-size: 1.1rem;
-  animation: span3 5s;
-  animation-iteration-count: ;
-}
 
 
 
@@ -95,30 +72,6 @@ html{
 }
 }
 
-@keyframes span1{
-  from{
-    color: transparent;
-  }
-  to{
-    color: white;
-  }
-}
-@keyframes span2{
-  from{
-    color: transparent;
-  }
-  to{
-    color: white;
-  }
-}
-@keyframes span3{
-  from{
-    color: transparent;
-  }
-  to{
-    color: white;
-  }
-}
 
 
 /*loader end*/
