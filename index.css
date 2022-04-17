@@ -160,6 +160,7 @@ html{
 	height: 38px;
  border: 0px;
 	border-radius: 100%;
+	cursor: pointer;
 }
 
 .stick{
@@ -230,7 +231,7 @@ html{
 	font-family: 'Ubuntu', sans-serif;
 	margin:0 0 4px 20px;
 	transition: border 0.5s;
-	cursor: default;
+	cursor: pointer;
 }
 .holder ul li a:hover{
 	border-bottom: : 1.5px solid rgba(255,255,255,1);
@@ -245,7 +246,7 @@ html{
   position: fixed;
   bottom: 80px;
   left: 60px;
-  cursor: default;
+  cursor: pointer;
   
 }
 
@@ -496,21 +497,21 @@ text-align: center;
 .fb{
   font-size: 30px;
   color: black;
-  cursor:default;
+  cursor:pointer;
   margin-left: 50%;
 }
 
 .insta{
   font-size: 30px;
   color: black;
-  cursor:default;
-  margin-left: 25%;
+  cursor:pointer;
+  margin-left: 30%;
 }
 
 .wa{
   font-size: 30px;
   color: black;
-  cursor: default;
+  cursor: pointer;
   margin-left: 10%;
 }
 
@@ -520,7 +521,7 @@ margin: 10px 0 0 5px;
 }
 .brands-name:hover{
   transform: scale(1.3);
-  transition: 0.2s;
+  transition: 0.1s;
 }
   /*socialMedia icons end*/
 
