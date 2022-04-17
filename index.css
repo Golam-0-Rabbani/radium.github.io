@@ -484,7 +484,7 @@ text-align: center;
   height: 50px;
   display: flex;
   flex-grow: 1;
-  margin: 5% auto 5% auto;
+  margin: 5% auto 0 auto;
   border: 2px solid white;
   border-radius: 10px;
   background: transparent;
