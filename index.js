@@ -1,6 +1,6 @@
 setTimeout(function(){
             $('.loader').fadeToggle();
-        }, 3000); 
+        }, 2000); 
  
  
 function aftertoggle(){
