@@ -485,9 +485,9 @@ text-align: center;
   display: flex;
   flex-grow: 1;
   margin: 5% auto 0 auto;
-  border: 2px solid white;
+  border: 1px solid white;
   border-radius: 10px;
-  background: transparent;
+  background: rgba(106,193,130,0.5);
 }
 .socialMedia div{
   width: 100%;
