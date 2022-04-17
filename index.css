@@ -49,25 +49,25 @@ html{
 
 .div3 p{
   padding: 45px 0 0 15px;
-  font-size: 20px;
+  font-size: 1.1rem;
   font-style: italic;
   color: rgb(235,234,234);
   font-weight: bold;
   display: flex;
 }
 .span1{
-  font-size: 25px;
+  font-size: 1.1rem;
   animation: span1 3s;
   animation-iteration-count: ;
 }
 .span2{
-  font-size: 25px;
+  font-size: 1.1rem;
   animation: span2 4s;
   animation-iteration-count: ;
 }
 
 .span3{
-  font-size: 25px;
+  font-size: 1.1rem;
   animation: span3 5s;
   animation-iteration-count: ;
 }
