@@ -42,10 +42,7 @@
   height: 50px;
   display: flex;
   flex-grow: 1;
-  margin-top: 10px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 15px;
+  margin: 5% auto 5% auto;
   border: 2px solid white;
   border-radius: 10px;
   background: rgba(156,177,172,1);
