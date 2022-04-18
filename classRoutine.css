@@ -75,7 +75,7 @@ table tr{
 
 .tr{
   background: rgba(214,44,44,0.8);
-  color: rgba(18,18,18,1)
+  color: black
 }
 .tr1{
   background: rgb(75,88,91);
@@ -91,7 +91,7 @@ table tr{
 }
 .tr2:hover{
   background: rgb(200,200,200);
-  color: rgb(86,86,86);
+  color: black;
 }
 a{
 display: none;
