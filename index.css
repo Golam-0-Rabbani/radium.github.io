@@ -386,29 +386,71 @@ text-align: center;
   color: black;
   font-family: 'Ms Madi', cursive;
 }
+.slidershow{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  margin: 0 0 5% 0;
+}
+.navigation{
+  position: relative;
+  bottom: 30px;
+  display: flex;
+  left: 5%;
+}
+.bar{
+  width: 12%;
+  height: 10px;
+  border: 2px solid #fff;
+  margin: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.bar:hover{
+  background: #fff;
+}
 
-.gallery img{
-  width: 48%;
-  border: 0px solid  rgba(255,255,255,0.4);
-  border-radius: 10px;
-  margin: 0px;
+input[name="r"]{
+    position: absolute;
+    visibility: hidden;
 }
-.pic_left:hover{
-  transform: scale(1.7);
-  position: relative;
-  left: 90px;
-  bottom: 60px;
-  border-radius: 1px;
-  margin: 120px 0 0 10px;
+
+.slides{
+  width: 600%;
+  height: 100%;
+  display: flex;
 }
-.pic_right:hover{
-  transform: scale(1.7);
-  position: relative;
-  right: 90px;
-  bottom: 60px;
-  border-radius: 1px;
-  margin: 120px 0 0 10px;
+
+.slide{
+  width: 16.67%;
+  transition: 0.4s;
 }
+.slide img{
+  width: 100%;
+  height: 100%;
+}
+
+#r1:checked ~ .s1{
+  margin-left: 0;
+}
+
+#r2:checked ~ .s1{
+  margin-left: -16.67%;
+}
+#r3:checked ~ .s1{
+  margin-left: -33.34%;
+}
+#r4:checked ~ .s1{
+  margin-left: -50%;
+}
+#r5:checked ~ .s1{
+  margin-left: -66.68%;
+}
+#r5:checked ~ .s1{
+  margin-left: -83.35%;
+}
+
+
 /*socialMedia icons start*/
 .socialMedia{
   position: relative;
