@@ -408,6 +408,7 @@ text-align: center;
   margin: 6px;
   cursor: pointer;
   transition: 0.3s;
+  border-radius: 5%;
 }
 .bar:hover{
   background: #fff;
