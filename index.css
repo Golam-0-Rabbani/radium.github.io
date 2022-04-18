@@ -372,7 +372,7 @@ text-align: center;
 
 .gallery{
   width: 100%;
-  height: 700px;
+  height: 100%;
   margin: 0 0 10px 0;
   background: rgba(79,199,216,0.3);
 }
