@@ -412,7 +412,6 @@ text-align: center;
 .bar:hover{
   background: #fff;
 }
-
 input[name="r"]{
     position: absolute;
     visibility: hidden;
