@@ -1,5 +1,5 @@
 setTimeout(function(){
-            $('.loader').fadeToggle();
+            $('.loading').fadeToggle();
         }, 2000); 
  
  
