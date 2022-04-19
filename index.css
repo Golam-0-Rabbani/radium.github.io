@@ -14,43 +14,45 @@ html{
 }
 
 /*loader start*/
-
-.loader{
-  position: fixed;
+.loading{
   width: 100%;
   height: 100vh;
-  z-index: 200;
-  background: #414e52;
+  background: #334357;
+  display: flex;
 }
-.div3{
-  width: 120px;
-  height: 120px;
-  border: 8px solid white;
-  background: transparent;
-  border-radius: 100%;
-  margin: 30vh auto;
-  animation: div3 2s;
-  animation-iteration-count: infinite;
+.text{
+  font-size: 30px;
+  font-weight: 800;
+  color: white;
+  margin: 40vh auto 0 auto;
 }
-@keyframes div3{
-25%{
-  border-top: 8px solid red;
+.text span{
+  display: inline-block;
+  animation: wave 1s linear infinite;
 }
-50%{
-  border-top: 8px solid red;
-  border-right: 8px solid yellow;
+.text span:nth-child(2){
+  animation-delay: .3s;
 }
-75%{
-  border-top: 8px solid red;
-  border-right: 8px solid yellow;
-  border-bottom: 8px solid green;
+.text span:nth-child(3){
+  animation-delay: .5s;
 }
-100%{
-  border-top: 8px solid red;
-  border-right: 8px solid yellow;
-  border-bottom: 8px solid green;
-  border-left: 8px solid blue;
+.text span:nth-child(4){
+  animation-delay: .7s;
 }
+.text span:nth-child(5){
+  animation-delay: .9s;
+}
+.text span:nth-child(5){
+  animation-delay: 1.1s;
+}
+.text span:nth-child(6){
+  animation-delay: 1.3s;
+}
+
+@keyframes wave{
+  50%{
+    transform: translateY(-5px);
+  }
 }
 
 
