@@ -338,7 +338,6 @@ text-align: center;
 .teacher:hover{
   transition: all 0.2s;
   background:rgba(63,180,95,0.5);
-  transform: scale(1.1);
 }
 .teacher:hover img{
   display: block;
@@ -349,7 +348,7 @@ text-align: center;
   margin-right: auto;
 }
 .didarSir{
-  margin: 20% 0 0 0;
+  margin: 20% auto 0 auto;
   height: 290px;
 }
 #mahbubSir{
