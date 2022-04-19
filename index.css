@@ -19,6 +19,7 @@ html{
   height: 100vh;
   background: #334357;
   display: flex;
+  z-index: 200;
 }
 .text{
   font-size: 30px;
