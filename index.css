@@ -336,13 +336,14 @@ text-align: center;
   
 }
 .teacher:hover{
-  transition: all 0.1s;
+  transition: all 0.2s;
   background:rgba(63,180,95,0.5);
+  transform: scale(1.1);
 }
 .teacher:hover img{
   display: block;
   transform: scale(1.1);
-  transition: all 0.1s;
+  transition: all 0.2s;
   margin-top:-75px;
   margin-left: auto;
   margin-right: auto;
