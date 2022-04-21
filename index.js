@@ -48,6 +48,11 @@ function hover1(){
 	hovermenu1.classList.toggle("afterhover")
 	holder.classList.toggle("holderAfterHover1")
 }
-
+function ArafatSirWA() {
+    var ArafatSirWA = document.getElementById("ArafatSirNum").value;
+    navigator.clipboard.writeText(ArafatSirWA).then(() => {
+      alert("Arafat Sir Whatsapp number Copied");
+    });
+  }
 
 
