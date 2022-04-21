@@ -27,6 +27,7 @@ html{
   font-size: 30px;
   font-weight: 800;
   color: white;
+  font-family: 'Roboto Mono', monospace;
   margin: 40vh auto 0 auto;
 }
 .text span{
