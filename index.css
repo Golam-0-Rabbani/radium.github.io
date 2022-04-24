@@ -439,6 +439,7 @@ input[name="r"]{
 .slide{
   width: 16.67%;
   transition: 0.8s;
+  background: #5ba1ec;
 }
 .slide img{
   width: 100%;
