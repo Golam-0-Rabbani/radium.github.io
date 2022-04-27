@@ -37,7 +37,7 @@ function darkenable(){
   html.classList.toggle("darkHTML");
 	AboutRadium.classList.toggle("afterAboutRadium");
 	
-alert("These Feature Is Not Fully Useable Right Now.Please Wait For The Next Update🙂")
+prompt("These Feature Is Not Fully Useable Right Now.Please Wait For The Next Update🙂")
 }
 
 function hover1(){
