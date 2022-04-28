@@ -419,7 +419,7 @@ text-align: center;
   border: 2px solid #fff;
   margin: 5px;
   cursor: pointer;
-  transition: 0.5s;
+  transition: 0.3s;
   border-radius: 5%;
 }
 .bar:hover{
@@ -438,7 +438,7 @@ input[name="r"]{
 
 .slide{
   width: 16.67%;
-  transition: 0.8s;
+  transition: 0.4s;
   background: #5ba1ec;
 }
 .slide img{
